@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<overlay xmlns='http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul'>
+
+  <script type='application/x-javascript'
+	  src='chrome://sarkofree/content/sarkofree.js'>
+  </script>
+
+  <statusbar id="status-bar">
+    <statusbarpanel id="sarkofree_lui"
+		    class="statusbarpanel-iconic"
+		    src="chrome://sarkofree/content/ns.png"
+		    onclick="Tifrice.toggleHim()"/>
+    <statusbarpanel id="sarkofree_elle"
+		    class="statusbarpanel-iconic"
+		    src="chrome://sarkofree/content/cb.png"
+		    onclick="Tifrice.toggleHer()"/>
+  </statusbar>
+
+</overlay>

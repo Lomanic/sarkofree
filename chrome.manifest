@@ -1,0 +1,2 @@
+content	sarkofree	content/ xpcnativewrappers=no
+overlay	chrome://browser/content/browser.xul	chrome://sarkofree/content/sarkofree-overlay.xul

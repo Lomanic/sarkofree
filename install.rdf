@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>{22957d6c-1ac2-4736-982f-47a335793ed3}</em:id>
+		<em:name>Sarkofree</em:name>
+		<em:version>1.6</em:version>
+		<em:description>Retire des pages Internet toute mention de Nicolas Sarkozy ou Carla Bruni. Discussion bienvenue sur http://adjudant-tifrice.blogspot.com</em:description>
+		<em:creator>Adjudant Tifrice</em:creator>
+		<em:contributor>Remerciements à Martin Vidberg pour l'autorisation d'utiliser ses dessins comme icônes</em:contributor>
+		<em:contributor>http://vidberg.blog.lemonde.fr/</em:contributor>
+		<em:homepageURL>http://sites.google.com/site/sarkofree</em:homepageURL>
+		<em:optionsURL>chrome://sarkofree/content/options.xul</em:optionsURL>
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>2.0</em:minVersion>
+				<em:maxVersion>3.6.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>
+</RDF>
